@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Pragati Anshuman Chandra — Data Science, AI, ML and Full Stack portfolio.">
+<meta name="theme-color" content="#081523">
+<title>Pragati Chandra | Data · AI · Full Stack</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="page-glow"></div><div class="scroll-progress" id="progress"></div>
+<header class="nav-wrap">
+  <a class="brand" href="#top"><span class="brand-mark">P</span><span>PRAGATI<span class="muted-slash"> / </span>CHANDRA</span></a>
+  <nav id="nav">
+    <a href="#about">About</a><a href="#education">Education</a><a href="#certificates">Certificates</a><a href="#projects">Projects</a><a href="#experience">Internships</a><a href="#skills">Skills</a><a href="#achievements">Achievements</a><a href="#contact">Contact</a>
+  </nav>
+  <a class="resume-btn" id="resumeTop" href="#">Resume <span>↗</span></a>
+  <button class="menu" id="menu" aria-label="Open menu">☰</button>
+</header>
+
+<main id="top">
+<section class="hero reveal">
+  <div class="hero-copy">
+    <div class="eyebrow"><span class="dot"></span> DATA SCIENCE · AI · FULL STACK</div>
+    <h1>Hi, I'm<br><span>Pragati</span><br><strong>Chandra.</strong></h1>
+    <p id="heroTagline"></p>
+    <div class="hero-actions"><a class="primary-btn" href="#projects">Explore my work <span>→</span></a><a class="outline-btn" id="linkedinHero" target="_blank" rel="noopener">LinkedIn ↗</a></div>
+    <div class="hero-meta"><span>📍 Navi Mumbai, India</span><span>Python · SQL · AI · ML</span></div>
+  </div>
+  <div class="hero-profile">
+    <div class="profile-orbit orbit-blue"></div>
+    <div class="profile-orbit orbit-orange"></div>
+    <div class="profile-photo-wrap"><img id="profilePhoto" alt="Pragati Chandra"></div>
+  </div>
+</section>
+<div class="ticker"><div>BUILD · ANALYSE · PREDICT · DEPLOY · LEARN · BUILD · ANALYSE · PREDICT · DEPLOY · LEARN ·</div></div>
+
+<section id="about" class="section reveal">
+  <div class="section-label">01 <span>ABOUT</span></div>
+  <div class="section-intro"><div><p class="kicker">A LITTLE ABOUT ME</p><h2>Curious about data.<br><span>Serious about building.</span></h2></div><p id="aboutText" class="section-lead"></p></div>
+  <div class="about-grid"><div class="about-note">I like turning ideas into useful applications — from predictive models and AI-assisted analysis to secure full-stack systems.</div><div class="stat"><b>08</b><span>PROJECTS</span></div><div class="stat"><b>04</b><span>INTERNSHIPS</span></div><div class="stat"><b>05</b><span>CERTIFICATES</span></div></div>
+</section>
+
+<section id="education" class="section reveal">
+  <div class="section-label">02 <span>EDUCATION</span></div>
+  <div class="section-title"><p class="kicker">ACADEMIC PATH</p><h2>Education<span>.</span></h2></div>
+  <div id="educationList" class="education-list"></div>
+</section>
+
+<section id="certificates" class="section reveal">
+  <div class="section-label">03 <span>CERTIFICATES</span></div>
+  <div class="section-title"><p class="kicker">PROOF OF LEARNING</p><h2>Certificates<span>.</span></h2><p>Credentials across data science, analytics, cloud, AI/ML and full-stack development.</p></div>
+  <div id="certificateList" class="card-grid certificate-grid"></div>
+</section>
+
+<section id="projects" class="section reveal">
+  <div class="section-label">04 <span>PROJECTS</span></div>
+  <div class="section-title"><p class="kicker">SELECTED WORK</p><h2>Projects<span>.</span></h2><p>Applications, machine-learning work and practical data projects — each shown once, with consistent card sizing.</p></div>
+  <div id="projectList" class="card-grid project-grid"></div>
+</section>
+
+<section id="experience" class="section reveal">
+  <div class="section-label">05 <span>INTERNSHIPS</span></div>
+  <div class="section-title"><p class="kicker">PROFESSIONAL EXPOSURE</p><h2>Internships<span>.</span></h2><p>Multiple experiences across Java full stack, AI/ML and Google Cloud data analytics.</p></div>
+  <div id="experienceList" class="card-grid internship-grid"></div>
+</section>
+
+<section id="skills" class="section reveal">
+  <div class="section-label">06 <span>SKILLS</span></div>
+  <div class="section-title"><p class="kicker">TOOLS I USE</p><h2>Skills & Technologies<span>.</span></h2></div>
+  <div id="skillsList" class="skills-grid"></div>
+</section>
+
+<section id="achievements" class="section reveal">
+  <div class="section-label">07 <span>ACHIEVEMENTS</span></div>
+  <div class="section-title"><p class="kicker">HIGHLIGHTS</p><h2>Beyond the cards<span>.</span></h2><p>These highlights stay visible even when there is no external link.</p></div>
+  <div id="highlightList" class="card-grid achievement-grid"></div>
+</section>
+
+<section id="contact" class="contact reveal">
+  <div class="section-label">08 <span>CONTACT</span></div>
+  <div class="contact-inner"><p class="kicker">LET'S CONNECT</p><h2>Let's build<br><span>something useful.</span></h2><p>Open to opportunities, collaborations and projects around data science, AI, software development and analytics.</p><div class="contact-links"><a id="emailLink">Email ↗</a><a id="githubLink" target="_blank" rel="noopener">GitHub ↗</a><a id="linkedinLink" target="_blank" rel="noopener">LinkedIn ↗</a></div></div>
+</section>
+</main>
+<footer><span>© <b id="year"></b> PRAGATI ANSHUMAN CHANDRA</span><span>DATA · AI · CODE</span></footer>
+<script src="portfolio-data.js"></script><script src="script.js"></script>
+</body></html>
