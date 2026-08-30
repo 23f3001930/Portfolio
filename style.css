@@ -37,3 +37,58 @@
 .folder-links a{white-space:normal!important;display:block}
 .folder-links::-webkit-scrollbar{width:4px}.folder-links::-webkit-scrollbar-thumb{background:var(--orange);border-radius:9px}
 @media(max-width:900px){.folder-links{grid-template-columns:1fr}}
+
+
+
+/* ===== Final responsive layer: desktop + tablet + mobile ===== */
+html{scroll-behavior:smooth}
+img{max-width:100%;height:auto}
+body{overflow-x:hidden}
+
+/* Small view switcher: responsive is automatic; button lets visitors force compact view. */
+.view-toggle{
+  position:fixed;right:18px;bottom:18px;z-index:9999;
+  border:1px solid var(--orange);background:rgba(8,21,35,.94);
+  color:var(--white);padding:10px 14px;border-radius:999px;
+  font:600 12px var(--mono);letter-spacing:.03em;cursor:pointer;
+  box-shadow:0 12px 35px rgba(0,0,0,.35);backdrop-filter:blur(10px);
+  transition:transform .2s ease,background .2s ease;
+}
+.view-toggle:hover{transform:translateY(-2px);background:rgba(23,54,85,.98)}
+
+@media(max-width:900px){
+  .hero{grid-template-columns:1fr;gap:40px;padding-top:88px}
+  .hero-copy{text-align:center}
+  .hero-actions,.hero-meta{justify-content:center}
+  .hero-profile{min-height:420px}
+  .card-grid{grid-template-columns:repeat(2,minmax(0,1fr))!important}
+  .project-grid,.certificate-grid,.internship-grid{grid-template-columns:repeat(2,minmax(0,1fr))!important}
+  .skills-grid{grid-template-columns:repeat(2,minmax(0,1fr))!important}
+  .nav-wrap nav{max-height:calc(100vh - 66px);overflow:auto}
+}
+@media(max-width:620px){
+  .nav-wrap{padding:0 5%}
+  .nav-wrap nav{padding:20px 5%}
+  .hero{padding:82px 5% 55px}
+  .hero h1{font-size:clamp(56px,17vw,82px)!important;line-height:.92}
+  .hero-profile{min-height:360px;margin-top:5px}
+  .profile-photo-wrap{width:min(290px,72vw)!important;height:min(290px,72vw)!important}
+  .orbit-blue{width:min(370px,94vw)!important;height:min(370px,94vw)!important}
+  .orbit-orange{width:min(325px,86vw)!important;height:min(325px,86vw)!important}
+  .hero-actions{flex-wrap:wrap}
+  .hero-actions a{min-height:42px;display:inline-flex;align-items:center}
+  .hero-meta{flex-direction:column;gap:7px}
+  .section{padding:72px 0}
+  .section-title{font-size:clamp(48px,14vw,72px)!important}
+  .section-intro{display:block}
+  .section-lead{margin-top:20px}
+  .card-grid,.project-grid,.certificate-grid,.internship-grid,.skills-grid{grid-template-columns:1fr!important}
+  .card,.project-card,.certificate-card,.internship-card,.folder-card{width:100%!important;min-width:0!important}
+  .folder-links{grid-template-columns:1fr!important}
+  .card-actions{flex-wrap:wrap}
+  .card-actions a{min-height:40px;display:inline-flex;align-items:center}
+  .view-toggle{right:12px;bottom:12px;padding:9px 12px}
+}
+@media(prefers-reduced-motion:reduce){
+  .view-toggle{transition:none}
+}

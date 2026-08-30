@@ -88,4 +88,28 @@
 </main>
 <footer><span>© <b id="year"></b> PRAGATI ANSHUMAN CHANDRA</span><span>DATA · AI · CODE</span></footer>
 <script src="portfolio-data.js"></script><script src="script.js"></script>
+
+<button class="view-toggle" id="viewToggle" type="button" aria-label="Toggle compact mobile layout">
+  📱 Mobile view
+</button>
+<script>
+(function(){
+  const body=document.body, btn=document.getElementById('viewToggle');
+  if(!btn) return;
+  function update(){
+    const forced=body.classList.contains('force-mobile');
+    btn.textContent=forced ? '↩ Auto view' : '📱 Mobile view';
+    btn.setAttribute('aria-pressed', forced ? 'true':'false');
+  }
+  btn.addEventListener('click',function(){
+    body.classList.toggle('force-mobile');
+    localStorage.setItem('portfolioViewMode',body.classList.contains('force-mobile')?'mobile':'auto');
+    update();
+  });
+  if(localStorage.getItem('portfolioViewMode')==='mobile') body.classList.add('force-mobile');
+  update();
+})();
+</script>
+
+
 </body></html>

@@ -23,6 +23,7 @@ const portfolioData={
  certificates:[
   {title:'IIT Madras — Foundational Level',issuer:'IIT MADRAS',links:[['Open certificate','https://drive.google.com/file/d/1xlUuXk1ssgx1MBEUkSbOYwqu_a6tnl5P/view?usp=sharing']]},
   {title:'Microsoft Certified: Power BI Data Analyst Associate',issuer:'MICROSOFT',links:[['Open certificate','https://drive.google.com/file/d/195WHDxgmqUH-zyp2Lwgx2adOMCfMMai8/view?usp=sharing']]},
+  {title:'AWS Academy : Cloud_Foundations',issuer:'AWS ACADEMY',links:[['Open certificate','https://drive.google.com/file/d/1hFzzXKSHXZxS_7iuupUKEo182hgbS8Ou/view?usp=sharing']]},
   {title:'Data Science Essentials with Python',issuer:'DATA SCIENCE',links:[['Certificate','https://drive.google.com/file/d/1juBCF5jzAmpvWKd8fBjTgKQ-ZTl_xi74/view?usp=sharing'],['Additional credential','https://drive.google.com/file/d/1jKR2hWLaYRZbQTWqQAtcUJ7zRXkuuVGq/view?usp=sharing']]},
   {title:'Google Cloud Computing Foundations',issuer:'GOOGLE CLOUD',links:[['Open certificate','https://drive.google.com/file/d/1H1fIxlSi6JuO7Dd7PGfGxr5tYsK6lbfv/view?usp=sharing']]},
   {title:'Green Skills and Artificial Intelligence under Skills4Future Program',issuer:'SKILLS4FUTURE',links:[['Open certificate','https://drive.google.com/file/d/1z86LFwmTMW0DJl5628NxUPTqW3FMJsFs/view?usp=sharing']]}
