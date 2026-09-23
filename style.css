@@ -92,3 +92,100 @@ body{overflow-x:hidden}
 @media(prefers-reduced-motion:reduce){
   .view-toggle{transition:none}
 }
+
+
+
+/* ===== Larger Project Cards ===== */
+.projects-grid,
+.project-grid,
+.cards-grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+  gap: 24px !important;
+  align-items: stretch !important;
+}
+
+.project-card {
+  min-height: 440px !important;
+  padding: 30px !important;
+  display: flex !important;
+  flex-direction: column !important;
+}
+
+.project-card h3,
+.project-card .project-title {
+  font-size: clamp(1.55rem, 2vw, 2.05rem) !important;
+  line-height: 1.12 !important;
+}
+
+.project-card p,
+.project-card .project-description {
+  font-size: 1.02rem !important;
+  line-height: 1.65 !important;
+}
+
+.project-card .project-tags,
+.project-card .tags {
+  margin-top: auto !important;
+}
+
+.project-card .project-actions,
+.project-card .actions {
+  margin-top: 18px !important;
+}
+
+@media (max-width: 1050px) {
+  .projects-grid,
+  .project-grid,
+  .cards-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+  }
+}
+
+@media (max-width: 650px) {
+  .projects-grid,
+  .project-grid,
+  .cards-grid {
+    grid-template-columns: 1fr !important;
+  }
+  .project-card {
+    min-height: 390px !important;
+    padding: 24px !important;
+  }
+}
+
+
+
+/* ===== Project action visibility fix ===== */
+.project-card .project-actions,
+.project-card .actions,
+.project-card a[href],
+.project-card .project-link,
+.project-card .project-buttons {
+  position: relative !important;
+  z-index: 5 !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+}
+
+.project-card {
+  overflow: visible !important;
+}
+
+.project-card .project-actions,
+.project-card .actions,
+.project-card .project-buttons {
+  margin-top: auto !important;
+  padding-top: 18px !important;
+  display: flex !important;
+  flex-wrap: wrap !important;
+  gap: 10px !important;
+}
+
+.project-card .project-actions a,
+.project-card .actions a,
+.project-card .project-buttons a {
+  display: inline-flex !important;
+  align-items: center !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+}
