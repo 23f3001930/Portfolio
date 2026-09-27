@@ -2,7 +2,7 @@
    Edit this file to update your portfolio content. No need to change index.html.
 */
 const portfolioData={
- profile:{name:'Pragati Anshuman Chandra',shortName:'Pragati',title:'Data Science & Computer Science Student',tagline:'I build practical applications across data science, AI, machine learning and full-stack development.',about:'I am a Data Science and Computer Science student passionate about machine learning, predictive modeling, data analysis and web development. I enjoy turning ideas into practical applications.',location:'Navi Mumbai, India',email:'pragatichandra2323@gmail.com',phone:'+91 9326688099',github:'https://github.com/23f3001930',linkedin:'https://www.linkedin.com/in/193563293',resume:'assets/Pragati-Chandra-Resume.pdf',photo:'assets/pragati-profile.jpeg'},
+ profile:{name:'Pragati Anshuman Chandra',shortName:'Pragati',title:'Data Science & Computer Science Student',tagline:'I build practical applications across data science, AI, machine learning and full-stack development.',about:'I am a Data Science and Computer Science student passionate about machine learning, predictive modeling, data analysis and web development. I enjoy turning ideas into practical applications.',location:'Navi Mumbai, India',email:'pragatichandra2323@gmail.com',phone:'+91 9326688099',github:'https://github.com/23f3001930',linkedin:'https://www.linkedin.com/in/193563293',resume:'assets/Pragati_Anshuman_Chandra_Resume.pdf',photo:'assets/pragati-profile.jpeg'},
  education:[
   {year:'2023 — 2027',degree:'B.S. Programming and Data Science',institute:'Indian Institute of Technology Madras',place:'Chennai, India'},
   {year:'2023 — 2027',degree:'B.E. Computer Science',institute:'Mumbai University',place:'Mumbai, India'}
