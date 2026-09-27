@@ -21,6 +21,7 @@ const portfolioData={
   ['Programming Languages','Python · SQL · HTML · CSS · JavaScript'],['Frameworks & Libraries','Flask · Streamlit · Scikit-learn · Pandas · NumPy · Matplotlib · Seaborn · Bootstrap'],['Databases','SQLite · MySQL · SQLAlchemy ORM · MongoDB'],['Tools & Platforms','Git & GitHub · REST APIs · Jinja Templating · Vue.js'],['Backend & Security','JWT Authentication · Role-based Authorization · Celery · Redis · REST APIs'],['Data & AI','Machine Learning · Predictive Modeling · Data Analysis · Google Generative AI']
  ],
  certificates:[
+  {title:'IIT Madras — Diploma in Programming',issuer:'IIT MADRAS',links:[['Open certificate','https://drive.google.com/file/d/1JjJd2pVqso4N38kf21w8M49eWg0bs2dH/view?usp=drive_link']]},
   {title:'IIT Madras — Foundational Level',issuer:'IIT MADRAS',links:[['Open certificate','https://drive.google.com/file/d/1xlUuXk1ssgx1MBEUkSbOYwqu_a6tnl5P/view?usp=sharing']]},
   {title:'Microsoft Certified: Power BI Data Analyst Associate',issuer:'MICROSOFT',links:[['Open certificate','https://drive.google.com/file/d/1Ww5dpjE-KIPgmJI8F4g1OiOqMlUOA8I0/view?usp=sharing']]},
   {title:'Microsoft Certified: Fabric Data Engineer Associate',issuer:'MICROSOFT',links:[['Open certificate','https://drive.google.com/file/d/1nZnolVQxvtoCVnrkzrFxRMdgrIAZgG0q/view?usp=sharing']]},
